@@ -596,34 +596,25 @@ a:hover {
   opacity: 0.9;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@700&display=swap');
-
-.jc-logo {
-  position: relative;
-  display: inline-block;
-  padding: 20px;
-  background: transparent;
-}
-
-.initials {
+.jc-logo.elegant {
+  display: flex;
   font-family: 'Playfair Display', serif;
-  font-size: 120px;
-  color: #ccc;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.2;
-  z-index: 1;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #2c3e50;
 }
 
-.name {
-  font-family: 'Great Vibes', cursive;
-  font-size: 40px;
-  color: #000;
-  position: relative;
-  z-index: 2;
+.jc-logo.elegant span:first-child {
+  color: #3498db;
+  transform: rotate(-15deg);
+  display: inline-block;
+  margin-right: 2px;
 }
 
+.jc-logo.elegant span:last-child {
+  border-bottom: 3px solid #e74c3c;
+  padding-bottom: 3px;
+}
 /*======================================
 //--//-->   INTRO
 ======================================*/
