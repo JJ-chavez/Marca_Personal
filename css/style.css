@@ -1521,7 +1521,7 @@ footer .credits a {
 .vol-desc {
   position: absolute;
   inset: 0;
-  background: rgba(0,45,90,0.94);
+  background: rgba(80, 80, 80, 0.94);
   color: #fff;
   opacity: 0;
   padding: 1.3rem 1rem;
